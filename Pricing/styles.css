@@ -1,0 +1,93 @@
+header {
+    background-color: #eef1ec;
+    height: inherit;
+}
+
+.header-navigation-logo h1 {
+    color: #0f5f5c;
+}
+
+.header-navigation-logo i {
+    color: #83a7a5;
+}
+
+.header-navigation-logo a:hover {
+    transition: 0.2s;
+    color: #708281;
+}
+
+.header-navigation-menu a:hover {
+    color: #fff;
+    background-color: #6fb048;
+}
+
+.header-navigation-menu i {
+    color: #0f5f5c;
+}
+
+.pricing-plan-heading {
+    text-align: center;
+}
+
+.pricing-plan-heading h1 {
+    font-size: 32px;
+}
+
+.pricing-plan-options {
+    padding-bottom: 25px;
+}
+
+.pricing-including-heading {
+    margin-top: 30px;
+}
+
+.green-option:hover {
+    transition: 0.1s;
+    background-color: #5f993e !important;
+}
+
+.header-ending {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.downloading {
+    background: url('../Home/img/Downloading.png') no-repeat center / cover
+}
+
+.downloading-content-button a {
+    background-color: #6fb048;
+}
+
+.downloading-content-button a:hover {
+    background-color: #5e9240;
+}
+
+@media screen and (max-width: 1100px) {
+    .pricing-including-main-options-option span p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .pricing-plan-options {
+        display: block;
+    }
+
+    .pricing-plan-options-option {
+        margin: 0 auto 15px auto;
+    }
+
+    .pricing-including-main {
+        display: block;
+    }
+
+    .pricing-including-main-options-option span {
+        max-width: 320px;
+        margin: 15px auto;
+    }
+
+    .pricing-including-main-options-option span p {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,152 @@
+header {
+    min-height: inherit !important;
+}
+
+.header-navigation-logo h1 {
+    color: #0f5f5c;
+}
+
+.header-navigation-logo i {
+    color: #83a7a5;
+}
+
+.header-navigation-logo a:hover {
+    transition: 0.2s;
+    color: #708281;
+}
+
+.header-navigation-menu a:hover {
+    color: #fff;
+    background-color: #6fb048;
+}
+
+.header-navigation-menu i {
+    color: #0f5f5c;
+}
+
+.map iframe {
+    width: 100%;
+    height: 60vh;
+}
+
+.contact {
+    padding: 40px 0 60px 0;
+}
+
+.row-container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.contact-heading h1 {
+    margin-bottom: 20px;
+}
+
+.contact-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.contact-main-form-inputs a,
+.downloading-content-button a {
+    padding: 12px 45px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #6fb048;
+}
+
+.downloading-content-button a:hover,
+.contact-main-form-inputs a:hover {
+    transition: 0.2s;
+    background-color: #5e9240;
+}
+
+.contact-main-form-inputs input {
+    height: 40px;
+    width: 450px;
+    border: 1px solid #c1d3d2;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.contact-main-form-inputs-message {
+    height: 115px !important;
+    margin-bottom: 25px !important;
+}
+
+.contact-main-form-inputs input::placeholder {
+    color: #83a7a5;
+}
+
+.contact-main-form-info {
+    width: 330px;
+    height: 260px;
+    text-align-last: left;
+    border: 2px dashed #c1d3d2;
+    padding: 25px;
+}
+
+.contact-main-form-info span {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.contact-main-form-info-address {
+    align-items: start !important;
+}
+
+.contact-main-form-info-address i {
+    padding-top: 5px;
+}
+
+.contact-main-form-info span i {
+    color: #6fb048;
+    margin-right: 10px;
+}
+
+.contact-main-form-info span a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #0f5f5c;
+}
+.contact-main-form-info span a:hover {
+    color: #15817e;
+}
+
+.downloading {
+    background: url('../Home/img/Downloading.png') no-repeat center / cover
+}
+
+@media screen and (max-width: 1100px) {
+    .map {
+        padding: 0 !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .contact-main {
+        display: block;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .contact-main-form-info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-main-form-inputs input {
+        width: 280px;
+    }
+}

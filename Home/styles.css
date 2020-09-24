@@ -1,0 +1,267 @@
+header {
+    background: url('./img/Layer\ 14.png') no-repeat center / cover;
+}
+
+.features-heading {
+    max-width: 420px;
+}
+
+.features-skills-skill {
+    max-width: 450px;
+    margin: 25px;
+}
+
+.features-skills-skill-heading {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 10px;
+}
+
+.features-skills-skill-heading img {
+    height: 40px;
+    width: 40px;
+}
+
+.lamp {
+    height: 50px;
+    width: 32px !important;
+}
+
+.features-skills-skill-heading h1 {
+    margin-left: 25px;
+}
+
+.advertising {
+    width: 100%;
+    padding-top: 70px;
+    margin-bottom: 30px;
+    background-color: #eef1ec;
+}
+
+.advertising-heading {
+    text-align: center;
+}
+
+.adverticing-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advertising-content-hand {
+    margin-bottom: -7px;
+}
+
+.adverticing-content-info {
+    margin-left: 70px;
+}
+
+.adverticing-content-info div {
+    margin-top: 20px;
+}
+
+.adverticing-content-info div span {
+    display: flex;
+    align-items: center;
+}
+
+.adverticing-content-info div span p {
+    padding-left: 15px;
+}
+
+.review-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.review-content-info {
+    margin-right: 100px;
+}
+
+.review-content-info h2 {
+    color: #306d6a;
+    font-size: 22px;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+.review-content-info h6 {
+    color: #6fb048;
+    margin: 25px 0 10px 0;
+}
+
+.location {
+    width: 100%;
+    min-height: inherit;
+    background-color: #eef1ec;
+}
+
+.location-content {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.location-content-info{
+    margin-left: 20%;
+}
+.location-content-info h1 {
+    font-size: 32px;
+}
+
+.downloading {
+    background: url('./img/Downloading.png') no-repeat center / cover
+}
+
+.downloading-content-button a {
+    background-color: #6fb048;
+}
+
+.downloading-content-button a:hover {
+    background-color: #5e9240;
+}
+@media screen and (max-width: 1400px) {
+    .location-content-info {
+        display: block;
+    }
+
+    .location-content-map {
+        display: none;
+    }
+
+    .location-content-info {
+        color: #115553;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .location-content-info {
+        display: block;
+    }
+
+    .location-content-map {
+        display: none;
+    }
+
+    .location-content {
+        background: url('./img/map.png') no-repeat center / cover;
+    }
+
+    .location-content-info {
+        color: #115553 !important;
+        text-align: center;
+    }
+
+    .location-content-info p {
+        color: #115553 !important;
+    }
+}
+@media screen and (max-width: 1100px) {
+
+    .features {
+        padding: 30px !important;
+    }
+
+    .features-abilities {
+        margin-top: 10px;
+    }
+
+    .review-content-info {
+        margin-right: 0;
+    }
+
+    .review-content-info {
+        margin-right: 0;
+    }
+    .advertising-heading {
+        padding-top: 25px;
+    }
+
+    
+    .pricing-including-main-options-option span p {
+        font-size: 13px;
+    }
+
+    .pricing-including-main-options-option span p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+
+    .features-abilities,
+    .features-skills,
+    .features-skills-skill-heading {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .features-skills-skill-heading h1 {
+        margin: 0;
+    }
+
+    .features-abilities-ability p {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .features-abilities {
+        margin-bottom: 0;
+    }
+
+    .features-skills-skill {
+        margin: 15px auto;
+    }
+
+    .advertising-content-hand {
+        display: none;
+    }
+
+    .adverticing-content-info {
+        text-align: center;
+        padding: 10px 0 30px 0;
+    }
+
+    .adverticing-content-info {
+        margin: 0;
+    }
+
+    .review-content {
+        display: inline;
+        text-align: center;
+    }
+
+    .reviews-content-photo {
+        padding: 30px 0;
+
+    }
+
+    .reviews-content-photo img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .pricing-plan-options {
+        display: block;
+    }
+
+    .pricing-plan-options-option {
+        margin: 0 auto 15px auto;
+    }
+
+    .pricing-including-main {
+        display: block;
+    }
+
+    .pricing-including-main-options-option span {
+        max-width: 320px;
+        margin: 15px auto;
+    }
+
+    .pricing-including-main-options-option span p {
+        font-size: 15px;
+    }
+}
